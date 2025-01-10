@@ -2,6 +2,14 @@
 
 _code for recreating results, most will require updated file paths_
 
+[1] Running PathFX for all drugs, finding associations to phenotypes of interest, "search"
+Requirements:
+- results directory "alldrugbank" containing PathFXv2 networks for all drugs in DrugBank. This can be created by running the script, "run_PathFX_allDrugBank.py". You will need to clone the PathFX repository directly to run this code: https://github.com/jenwilson521/PathFX
+
+[2] Summarizing PathFX associations to psychiatric diseases, "", "", ""
+Requirements:
+- a formatted file linking DrugBank identifiers to ATC codes. Once access to the DrugBank database is obtained, we use example parsing code from the link below to create other inputs to our analysis.
+
 [1] Logistic and ridge regression for in silico screen, heatmap for in silico screen: "in_silico_logreg.ipynb", "in_silico_ridgereg.ipynb", "Heatmap_Insilico.ipynb"
 
 Requirements:
